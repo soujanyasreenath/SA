@@ -1,4 +1,5 @@
 # SA
+-----------
 
 # Download :
 
@@ -51,11 +52,12 @@
 
 # Install dependencies :
  
- - run npm install
+ - run 'npm install'
 
 # Run :
 
   - Run the app using 'http-server'** (you can install it using "npm install http-server") 
+   
    **(since opening html documents directly on the browser will cause this error : "AngularJS Error: Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https")
 
 # Basic functionalities covered :
