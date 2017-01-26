@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Sap cart - Online shopping for men and women
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <!-- CSS and Fonts -->
+    <!-- using google fonts - Roboto - for better compatibility on phones -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,200,300,500," rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+  </head>
+  <body data-ng-app="sapCart">
+    <article class="container" ng-controller="cartController">
+      <section ng-include="'../template/shopping-cart.html'"></section>
+    </article>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="../assets/js/app.js"></script>
+  </body>
+</html>

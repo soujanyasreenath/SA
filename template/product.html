@@ -1,0 +1,45 @@
+<article class="product-container">
+  <section class="product-image take-right">
+    <img ng-src="{{productDetail.p_image}}" alt="{{productDetail.p_name}}" height="375px">
+  </section>
+  <section class="product-text-wrap take-right">
+    <div class="product-text">
+      <p class="product-name font-uppercase fw-300">
+        {{productDetail.p_name}}
+      </p>
+      <p class="product-price font-uppercase fw-300">
+        <span class="dollar" style="vertical-align: top;">$</span> <span class="fw-400 price" style="font-size: 37px;">{{productDetail.p_price}}</span>
+      </p>
+      <div class="product-color">
+        <p class="product-name font-small font-uppercase fw-300">
+          {{productDetail.p_variation}}
+        </p>
+        <p>
+          <a href="" ng-repeat="color in productDetail.p_available_options.colors" ng-click="selectColor()">
+            <span ng-style="{'background-color' : color.hexcode}" ng-class="select ? 'selected-color' : ''" class="product-color-selection"></span>
+          </a>
+        </p>
+      </div>
+      <div class="select-boxes">
+        <select class="font-uppercase">
+          <option selected value="size">SIZE</option>
+          <option ng-repeat="size in productDetail.p_available_options.sizes" value="{{size.name}}" class="font-uppercase">
+            {{size.code}}
+          </option>
+        </select>
+        <select class="font-uppercase">
+          <option selected value="qty">QTY</option>
+          <option value="{{productDetail.p_quantity}}" class="font-uppercase">
+            {{productDetail.p_quantity}}
+          </option>
+        </select>
+      </div>
+      <div>
+        <p class="product-name">
+          <button ng-show="edit==false" class="btn btn-blue" ng-click="addToCart(productDetail.p_id-1); hideModalCallback('addModalShown')">Add to bag</button>
+          <button ng-show="edit==true" class="btn btn-blue" ng-click="hideEditModalCallback('editModalShown')">Edit</button>
+        </p>
+      </div>
+    </div>
+  </section>
+</article>
