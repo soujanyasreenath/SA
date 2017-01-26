@@ -2,9 +2,9 @@
 
 # Download :
 
- - clone the repository in any directory you wish to run the project : git clone git@github.com:soujanyasreenath/SA.git
+ - Clone the repository in any directory you wish to run the project : git clone git@github.com:soujanyasreenath/SA.git
 
-# Installing Nodejs :
+# Installing Nodejs : (skip if node has alredy been installed on your comuter)
 
  - Ubuntu / Mint: 
     
@@ -14,7 +14,7 @@
     
     3) sudo apt-get install npm
 
- - windows :
+ - Windows :
     
     1) Install cygwin. (http://www.mcclean-cooper.com/valentino/cygwin_install/)
     
@@ -49,9 +49,14 @@
       - make
       - sudo make install
 
-# Accessing :
+# Install dependencies :
+ 
+ - run npm install
 
-  - Access using http-server (you can install it using "npm install http-server"), since opening html documents directly on the browser will cause this error : "AngularJS Error: Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https"
+# Run :
+
+  - Run the app using 'http-server'** (you can install it using "npm install http-server") 
+   **(since opening html documents directly on the browser will cause this error : "AngularJS Error: Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https")
 
 # Basic functionalities covered :
 
@@ -59,10 +64,10 @@
 
  - Templating and JS using angularjs
  
- - click continue shopping for modal dialog to open and add product to bag.
+ - Click continue shopping for modal dialog to open and add product to bag.
 
- - click edit to open each product in a modal window
+ - Click edit to open each product in a modal window
 
- - click remove to remove item from cart
+ - Click remove to remove item from cart
 
 (Known bugs - Estimated price does not change, remove button indexing is not happening properly if done randomly.)
