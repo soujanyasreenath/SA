@@ -2,13 +2,11 @@
   "name": "sa",
   "version": "1.0.0",
   "description": "# Download :",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "main": "../template/index.html",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
