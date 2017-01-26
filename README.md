@@ -19,6 +19,7 @@
       - devel → make
       - python → python
       - devel → git
+      
     3) Open the cygwin command line with Start > Cygwin > Cygwin Bash Shell.
 
     4) Run the below commands to download and build node.
