@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "shopcart",
   "main": "/template/index.html",
+  "scripts": {
+    "start": "http-server"
+  },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
