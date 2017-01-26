@@ -5,7 +5,7 @@
 
  - Clone the repository in any directory you wish to run the project : git clone git@github.com:soujanyasreenath/SA.git
 
-# Installing Nodejs : (skip if node has alredy been installed on your comuter)
+# Installing Nodejs : (skip if node has alredy been installed on your computer)
 
  - Ubuntu / Mint: 
     
