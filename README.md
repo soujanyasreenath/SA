@@ -46,9 +46,14 @@
 
 # Basic functionalities covered :
 
+ - RWD
+
+ - Templating and JS using angularjs
+ 
  - click continue shopping for modal dialog to open and add product to bag.
 
- - click edit to edit each product
+ - click edit to open each product in a modal window
 
  - click remove to remove item from cart
 
+(Known bugs - Estimated price does not change, remove button indexing is not happening properly if done randomly.)
