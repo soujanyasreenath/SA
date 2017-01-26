@@ -1,6 +1,11 @@
 # SA
 
-# node js to be installed 
+# Download :
+
+ - clone the repository in any directory you wish to run the project : git clone git@github.com:soujanyasreenath/SA.git
+
+# node js to be installed :
+
  - Ubuntu / Mint: 
 	sudo apt-get update
 	sudo apt-get install nodejs
