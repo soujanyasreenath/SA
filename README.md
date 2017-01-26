@@ -13,13 +13,14 @@
 
  - windows :
     1) Install cygwin. (http://www.mcclean-cooper.com/valentino/cygwin_install/)
+    
     2) Use setup.exe in the cygwin folder to install the following packages:
       - devel → openssl
       - devel → g++-gcc
       - devel → make
       - python → python
       - devel → git
-      
+
     3) Open the cygwin command line with Start > Cygwin > Cygwin Bash Shell.
 
     4) Run the below commands to download and build node.
@@ -32,7 +33,9 @@
 
  - Mac :
     1) Install Xcode. (http://developer.apple.com/technologies/tools/)
+    
     2) Install git. (http://help.github.com/mac-git-installation/)
+    
     3) Run the following commands:
       - darwin_setup.sh
       - git clone git://github.com/ry/node.git
