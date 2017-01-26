@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "shopcart",
   "main": "/template/index.html",
+  "scripts": {
+    "start": "node /assets/js/app.js"
+  },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
