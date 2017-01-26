@@ -1,10 +1,10 @@
 'use strict';
-var sapcart = angular.module("sapCart", []);
+var shopcart = angular.module("shopCart", []);
 
-sapcart.controller('cartController', ['$scope', '$http', '$window', function($scope, $http, $window) {
+shopcart.controller('cartController', ['$scope', '$http', '$window', function($scope, $http, $window) {
   var cart_info;
   $scope.edit = false;
-  $http.get("../assets/cart.json")
+  $http.get("/assets/cart.json")
   .then(function(response) {
     $scope.cart = response["data"]["productsInCart"];
     // local storage
@@ -35,7 +35,7 @@ sapcart.controller('cartController', ['$scope', '$http', '$window', function($sc
       {  
          "p_id":"5",
          "p_name":"paisley jean",
-         "p_image" : "../assets/P1.jpg",
+         "p_image" : "/assets/P1.jpg",
          "p_variation":"paisley",
          "p_style":"ms13kt1906",
          "p_selected_color":{  
@@ -175,7 +175,7 @@ sapcart.controller('cartController', ['$scope', '$http', '$window', function($sc
 
 
 // modal box directive
-sapcart.directive('sapModal', [function() {
+shopcart.directive('sapModal', [function() {
   return {
     restrict: 'E',
     scope: {

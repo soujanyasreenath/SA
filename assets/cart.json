@@ -3,7 +3,7 @@
       {  
          "p_id":"1",
          "p_name":"cotton tshirt",
-         "p_image" : "../assets/T1.jpg",
+         "p_image" : "/assets/T1.jpg",
          "p_variation":"solid green",
          "p_style":"ms13kt1906",
          "p_selected_color":{  
@@ -56,7 +56,7 @@
       {  
          "p_id":"2",
          "p_name":"print girls tee",
-         "p_image" : "../assets/T2.jpg",
+         "p_image" : "/assets/T2.jpg",
          "p_variation":"pink rainbow",
          "p_style":"ms13kt1906",
          "p_selected_color":{  
@@ -109,7 +109,7 @@
       {  
          "p_id":"3",
          "p_name":"flower pattern shirt",
-         "p_image" : "../assets/T3.jpg",
+         "p_image" : "/assets/T3.jpg",
          "p_variation":"blue",
          "p_style":"ms13kt1906",
          "p_selected_color":{  
@@ -162,7 +162,7 @@
       {  
          "p_id":"4",
          "p_name":"check pattern tshirt",
-         "p_image" : "../assets/T4.jpg",
+         "p_image" : "/assets/T4.jpg",
          "p_variation":"mens red",
          "p_style":"ms13kt1906",
          "p_selected_color":{  

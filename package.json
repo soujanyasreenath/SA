@@ -1,8 +1,8 @@
 {
   "name": "sa",
   "version": "1.0.0",
-  "description": "# Download :",
-  "main": "../template/index.html",
+  "description": "shopcart",
+  "main": "/template/index.html",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {

@@ -179,7 +179,7 @@
       <button class="btn btn-blue xs-mobile-hidden">Checkout</button>
     </p>
     <p class="text-secure font-small fw-200">
-      <img src="../assets/lock.jpg" alt="secure shopping" class="display-inbl secure-lock"> Secure checkout. Shopping is always safe &amp; secure.
+      <img src="/assets/lock.jpg" alt="secure shopping" class="display-inbl secure-lock"> Secure checkout. Shopping is always safe &amp; secure.
     </p>
   </div>
   <hr>
@@ -190,13 +190,13 @@
   </div>
   <sap-modal show='editModalShown' id="showProductEdit" on-closed='hideEditModalCallback("editModalShown");'>
     <article class="product-container">
-      <div ng-include="'../template/product.html'"></div>
+      <div ng-include="'/template/product.html'"></div>
     </article>
   </sap-modal>
 </section>
 
 <sap-modal show='addModalShown' id="showProduct" on-closed='hideModalCallback("addModalShown");'>
   <article class="product-container">
-    <div ng-include="'../template/product.html'"></div>
+    <div ng-include="'/template/product.html'"></div>
   </article>
 </sap-modal>
