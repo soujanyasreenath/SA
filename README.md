@@ -7,11 +7,15 @@
 # Installing Nodejs :
 
  - Ubuntu / Mint: 
+    
     1) sudo apt-get update
+    
     2) sudo apt-get install nodejs
+    
     3) sudo apt-get install npm
 
  - windows :
+    
     1) Install cygwin. (http://www.mcclean-cooper.com/valentino/cygwin_install/)
     
     2) Use setup.exe in the cygwin folder to install the following packages:
@@ -32,6 +36,7 @@
       - sudo make install
 
  - Mac :
+    
     1) Install Xcode. (http://developer.apple.com/technologies/tools/)
     
     2) Install git. (http://help.github.com/mac-git-installation/)
