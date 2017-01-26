@@ -36,11 +36,15 @@
 	make
 	sudo make install
 
-# Access using http-server (you can install it using "npm install http-server"), since opening html documents directly on the browser will cause this error : "AngularJS Error: Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https"
+# Accessing :
 
-# click continue shopping for modal dialog to open and add product to bag.
+- Access using http-server (you can install it using "npm install http-server"), since opening html documents directly on the browser will cause this error : "AngularJS Error: Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https"
 
-# Click edit to edit each product
+# Basic functionalities covered :
 
-# Click remove to remove item from cart
+ - click continue shopping for modal dialog to open and add product to bag.
+
+ - click edit to edit each product
+
+ - click remove to remove item from cart
 
